@@ -133,13 +133,17 @@ all: build_dir targets
 
 TARGETS=
 
+#TARGETS+= \
+# 	hl \
+# 	dmc \
+# 	ricochet \
+#	hl_cdll \
+#	dmc_cdll \
+#	ricochet_cdll \
+
 TARGETS+= \
- 	hl \
- 	dmc \
- 	ricochet \
-	hl_cdll \
-	dmc_cdll \
-	ricochet_cdll \
+	hl \
+	hl_cdll
 
 build_dir:
 	-mkdir $(BUILD_DIR);
